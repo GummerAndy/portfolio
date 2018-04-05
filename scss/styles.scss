@@ -457,6 +457,12 @@ footer {
         color: $text;
         margin: 0;
     }
+
+    li {
+        display: inline-block;
+        font-size: 1.25em;
+        list-style: none;
+    }
 }
 
 /*
