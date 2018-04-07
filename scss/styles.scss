@@ -931,6 +931,14 @@ footer {
     header {
       ul {
         background: transparent;
+
+        a {
+          color: white;
+        }
+        
+        &.shadow {
+          box-shadow: none;
+        }
       }
     //     position: fixed;
     //     display: none;
@@ -938,9 +946,6 @@ footer {
     //     animation: none;
     //     bottom: 0;
     //     height: 100%;
-    }
-    .shadow {
-      box-shadow: none;
     }
 
     //
