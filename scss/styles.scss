@@ -928,14 +928,20 @@ footer {
 // Small Devices
 @media only screen and (max-width : 768px) {
 
-    // header {
+    header {
+      ul {
+        background: transparent;
+      }
     //     position: fixed;
     //     display: none;
     //     z-index: 999;
     //     animation: none;
     //     bottom: 0;
     //     height: 100%;
-    // }
+    }
+    .shadow {
+    
+    }
 
     //
     // #mobile-menu-open, #mobile-menu-close {
@@ -945,7 +951,7 @@ footer {
     #menu {
         // height: 100%;
         // overflow-y: auto;
-        background-color: transparent;
+        // background-color: transparent;
     //     box-shadow: none;
     //     border-radius: 0;
         width: 100%;
