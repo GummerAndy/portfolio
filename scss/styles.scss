@@ -935,7 +935,7 @@ footer {
         a {
           color: white;
         }
-        
+
         &.shadow {
           box-shadow: none;
         }
@@ -948,6 +948,12 @@ footer {
     //     height: 100%;
     }
 
+    #about {
+      ul {
+        text-align: left;
+        padding: 0px;
+      }
+    }
     //
     // #mobile-menu-open, #mobile-menu-close {
     //     display: block;
