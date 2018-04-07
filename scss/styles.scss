@@ -659,7 +659,23 @@ footer {
 .project-image {
     float: left;
     width: 300px;
-    height: 190px;
+    // height: 190px;
+    img {
+      width: 250px;
+    }
+    #arcadis {
+      padding-top: 11%;
+    }
+    #jumbo {
+      background-color: : #e5e5e5;
+    }
+    #innovate {
+      background-color: : #67dd39;
+    }
+    #uwv {
+      width: 180px;
+    }
+
 }
 
 .project-info {
