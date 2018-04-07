@@ -928,13 +928,16 @@ footer {
 // Small Devices
 @media only screen and (max-width : 768px) {
 
-    header {
-        position: fixed;
-        display: none;
-        z-index: 999;
-        animation: none;
-        bottom: 0;
-        height: 100%;
+    // header {
+    //     position: fixed;
+    //     display: none;
+    //     z-index: 999;
+    //     animation: none;
+    //     bottom: 0;
+    //     height: 100%;
+    // }
+    ul {
+      padding: 0px;
     }
 
     #mobile-menu-open, #mobile-menu-close {
