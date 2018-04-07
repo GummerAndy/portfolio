@@ -942,18 +942,19 @@ footer {
     //     display: block;
     // }
     //
-    // #menu {
-    //     height: 100%;
-    //     overflow-y: auto;
+    #menu {
+        // height: 100%;
+        // overflow-y: auto;
+        background-color: transparent;
     //     box-shadow: none;
     //     border-radius: 0;
-    //     width: 100%;
+        width: 100%;
     //
     //     li {
     //         display: block;
     //         margin-bottom: 10px;
     //     }
-    // }
+    }
 
     #lead-content {
         h1 {
