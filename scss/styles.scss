@@ -936,26 +936,24 @@ footer {
     //     bottom: 0;
     //     height: 100%;
     // }
-    ul {
-      padding: 0px;
-    }
 
-    #mobile-menu-open, #mobile-menu-close {
-        display: block;
-    }
-
-    #menu {
-        height: 100%;
-        overflow-y: auto;
-        box-shadow: none;
-        border-radius: 0;
-        width: 100%;
-
-        li {
-            display: block;
-            margin-bottom: 10px;
-        }
-    }
+    //
+    // #mobile-menu-open, #mobile-menu-close {
+    //     display: block;
+    // }
+    //
+    // #menu {
+    //     height: 100%;
+    //     overflow-y: auto;
+    //     box-shadow: none;
+    //     border-radius: 0;
+    //     width: 100%;
+    //
+    //     li {
+    //         display: block;
+    //         margin-bottom: 10px;
+    //     }
+    // }
 
     #lead-content {
         h1 {
@@ -973,6 +971,10 @@ footer {
 
     #lead-down {
         display: none;
+    }
+
+    ul {
+      padding: 0px;
     }
 
     .education-block {
