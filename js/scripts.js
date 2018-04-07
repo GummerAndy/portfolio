@@ -47,7 +47,7 @@
         var scrollDistance = $('#lead').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 500);
+        }, 200);
     });
 
     // Create timeline
