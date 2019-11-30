@@ -93,5 +93,13 @@
             $('#more-projects').fadeIn(300);
         });
     });
+    
+    // Load additional about me
+    $('#view-more-about').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#more-about').fadeIn(300);
+        });
+    });
 
 })(jQuery);
