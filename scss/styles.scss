@@ -467,6 +467,16 @@ footer {
         font-size: 1.25em;
         list-style-type: none;
     }
+    
+    button {
+        background-color: #3d86b8;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #1f679a;
+        font-size: 2em;
+        width: 100%;
+    
+    }
 }
 
 /*
@@ -595,6 +605,16 @@ footer {
         color: $heading;
         margin-bottom: 50px;
     }
+    
+    .row {
+        display: table;
+    }
+    
+    [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
 }
 
 .education-block {
@@ -632,6 +652,14 @@ footer {
     ul {
         padding: 0 0 0 15px;
     }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
 }
 
 /*
@@ -716,6 +744,13 @@ footer {
     display: none;
 }
 
+#more-skills {
+    display: none;
+}
+
+.more-education {
+    display: none;
+}
 
 /*
     -------------------------------
@@ -729,7 +764,7 @@ footer {
 
     h2 {
         color: $heading;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
 
     ul {
