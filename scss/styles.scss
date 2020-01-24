@@ -655,9 +655,16 @@ footer {
 
     img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        // margin-left: auto;
+        // margin-right: auto;
         width: 50%;
+        margin: 15% auto 0%;
+      }
+
+      a {
+          p {
+              text-align: center;
+          }
       }
 
 }
