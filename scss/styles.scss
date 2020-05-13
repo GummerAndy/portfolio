@@ -1005,20 +1005,22 @@ footer {
   #mobile-menu-open,
   #mobile-menu-close {
     display: block;
+    background-color: $base-color;
+    color: white;
   }
 
   #menu {
-    // height: 100%;
-    // overflow-y: auto;
-    // background-color: transparent;
-    //     box-shadow: none;
-    //     border-radius: 0;
+    height: 100%;
+    overflow-y: auto;
+    background-color: $base-color;
+    box-shadow: none;
+    border-radius: 0;
     width: 100%;
-    //
-    //     li {
-    //         display: block;
-    //         margin-bottom: 10px;
-    //     }
+
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
   }
 
   #lead-content {
